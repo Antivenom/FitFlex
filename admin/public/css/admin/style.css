@@ -1,0 +1,302 @@
+body {
+	min-height: 100%;
+	background: url(/admin/public/images/admin_background.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+h1, h2, h3, h4, h5 {
+	color:white;
+}
+#content-wrapper {
+	margin-top: 50px;
+}
+
+#sidebar-nav {
+	padding:20px;
+}
+
+#homeBtn {
+	width: 100%;
+	opacity: 0; 
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+	-moz-transition: 	all 0.5s ease;
+	-ms-transition: 	all 0.5s ease;
+	-o-transition: 		all 0.5s ease;
+	transition: 		all 0.5s ease;
+}
+#homeBtn.active {
+	padding: 8px 10px;
+	margin-bottom: 30px;
+	opacity: 1;
+    height: auto;
+}
+#homeBtn2 {
+	width: 100%;
+	margin-bottom:15px;
+	padding: 8px 10px;
+}
+
+.card {
+	display: block;
+	background-color: rgba(40,40,40,0.5);
+}
+.tile-row .card:hover {
+	cursor: pointer;
+}
+.tile-row {
+	margin-top: 20px;
+	height: auto;
+}
+.tile-row .card {
+	margin-bottom: 0;
+	margin-right: 5px;
+	text-align: center;
+}
+
+.tile-row .card-header {
+	text-align: center;
+	height: 200px;
+}
+.tile-row .card-header h2 {
+	color: white;
+	font-size: 30px;
+	vertical-align: middle;
+	margin-bottom: 25px;
+}
+.tile-row .card-header .glyphicon {
+	color: white;
+	font-size: 50px;
+}
+
+.effect {
+	transition: .3s ease;
+}
+
+.effect:hover {
+	transform: translateY(-10px);
+	-webkit-box-shadow: 0px 0px 8px 2px #00bcd4;
+       -moz-box-shadow: 0px 0px 8px 2px #00bcd4;
+            box-shadow: 0px 0px 8px 2px #00bcd4;
+}
+
+
+#tools .card {
+	margin-bottom: 20px;
+}
+
+#shoplayout {
+
+}
+
+.article .card:hover {
+	background-color: ghostwhite;
+}
+
+#articlelayout .tile-row {
+	margin-top:0;
+}
+#articlelayout .tile-row .card {
+	margin-bottom: 0;
+	margin-right: 0;
+	text-align: center;
+}
+
+#articlelayout h2 {
+	font-size: 3.5em;
+}
+#articlelayout h3 {
+	padding: 10px 5px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#articlelayout p {
+	color: white;
+	font-size: 1.5em;
+}
+
+#articlelayout label{
+	color: white;
+	font-size: 14px;
+}
+
+#articles .card {
+	margin-bottom: 20px;
+}
+
+.tile-row .toggle {
+	overflow-y: scroll !important;
+	-webkit-overflow-scrolling: auto;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	height:500px;
+}
+
+#articlelayout .card-header {
+	overflow: hidden;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	padding-bottom: 20px;
+}
+
+.tablelayout {
+
+}
+.tablelayout h3 {
+	margin-top: 20px;
+	padding: 10px 5px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.tablelayout p {
+	color: white;
+}
+
+.tablelayout label{
+	color: white;
+}
+
+.reglogin {
+	width: 100%;
+	text-align: center;
+}
+
+.reglogin form {
+	width: 55%;
+	margin: 0 auto;
+	text-align: center;
+}
+.reglogin form .input-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.reglogin form .input-group:nth-child(1) .fg-line {
+    border-radius: 10px;
+}
+.reglogin form .input-group .fg-line {
+	background-color: white;
+}
+.reglogin form input {
+	padding: 0 10px !important;
+	text-align: center;
+}
+.reglogin form .fg-line .glyphicon {
+	font-size: 20px;
+	line-height: 2;
+}
+
+#submit-button {
+	width: 100%;
+	height: 50px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+/* Menu css */
+#new-training {
+	margin-top:20px;
+}
+#new-meeting {
+	margin-top: 20px;
+}
+#new-article {
+	margin-top:20px;
+}
+
+#menucontainer {
+	margin: 0 auto;
+	text-align: center;
+}
+#menucontainer .input-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#menucontainer .input-group:nth-child(1) .fg-line {
+	border-radius: 10px;
+}
+#menucontainer .input-group .fg-line {
+	background-color: white;
+}
+#menucontainer input {
+	padding: 0 10px !important;
+	text-align: center;
+}
+#menucontainer .fg-line .glyphicon {
+	font-size: 20px;
+	line-height: 2;
+}
+
+#buy-stuff {
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+#buy-stuff .input-group {
+	width: 100%;
+	margin-bottom: 10px;
+}
+#buy-stuff .input-group:nth-child(1) .fg-line {
+	border-radius: 10px;
+}
+#buy-stuff .input-group .fg-line {
+	background-color: white;
+}
+#buy-stuff input {
+	padding: 0 10px !important;
+	text-align: center;
+}
+#buy-stuff .fg-line .glyphicon {
+	font-size: 20px;
+	line-height: 2;
+}
+
+#error-field {
+	margin-top: 20px;
+	padding-bottom:0;
+}
+.success {
+	background-color:  #8bc34a !important;
+}
+.warning {
+	background-color:  rgba(244,67,54,.7) !important;
+}
+.hide {
+	display: none;
+}
+
+@media(max-width: 1400px) {
+	.tile-row .card-header h2 {
+		font-size: 18px;
+	}
+}
+@media(max-width: 991px) {
+	.reglogin form {
+		width: 100%;
+	}
+	.tile-row .card {
+		margin-bottom: 20px;
+		margin-right: 5px;
+	}
+	.tile-row .col-md-4 {
+		padding-right: 0;
+	}
+}
